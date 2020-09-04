@@ -1,0 +1,2 @@
+# Slotmachine
+ google play
