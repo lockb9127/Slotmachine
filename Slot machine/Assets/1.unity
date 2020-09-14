@@ -279,11 +279,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511100837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.803, y: 0.88675886, z: -2.86977}
-  m_LocalScale: {x: 0.286977, y: 0.286977, z: 0.286977}
+  m_LocalPosition: {x: -1.2210002, y: -0.42972326, z: -8.60931}
+  m_LocalScale: {x: 0.860931, y: 0.860931, z: 0.860931}
   m_Children: []
-  m_Father: {fileID: 1269444113}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &935447281
 GameObject:
@@ -502,11 +502,10 @@ Transform:
   m_GameObject: {fileID: 1269444110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.63, y: -3.09, z: 0}
-  m_LocalScale: {x: 3.4846, y: 3.4846, z: 3.4846}
-  m_Children:
-  - {fileID: 511100840}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1269444114
 MonoBehaviour:
@@ -528,6 +527,8 @@ MonoBehaviour:
     m_Extent: {x: 2, y: 2, z: 2}
   rig: {fileID: 1269444115}
   tra: {fileID: 1269444113}
+  jumpforec: 300
+  isground: 0
 --- !u!50 &1269444115
 Rigidbody2D:
   serializedVersion: 4
@@ -543,7 +544,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -623,7 +624,7 @@ GameObject:
   - component: {fileID: 1523602131}
   - component: {fileID: 1523602133}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
